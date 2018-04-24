@@ -1,0 +1,217 @@
+/*---- 
+	padding and margin are included 
+	in calculating the width end 
+	height inside divs
+ ---*/
+* { box-sizing: border-box; }
+
+/*-- body styling  --*/
+body {
+	
+			 margin: 0 auto;
+			  width: 960px; 
+			 /* border: 1px solid lightgrey;  */
+		font-family: 'Istok Web';  
+
+}
+	 
+
+
+
+/*------------------ Header -----------------------*/
+
+/*-- header box  --*/
+	.myheader { 
+	
+		 background-color: #e0e0e0; 
+			      padding: 30px 30px;
+				  
+	
+	}
+	
+	
+		/*-- logo  --*/
+	.logo{ display: inline-block; }
+	
+	/*-- navigation bar  --*/
+	.mynav {
+
+			       display: inline-block; 
+			     font-size: 15px;
+				     float: right;
+					 padding-top:15px;
+		
+		}
+	
+	/*-- navigation links  --*/
+	.mynav a {
+				   float: left; 
+				 display: block;
+				   color: #707070;		
+			  text-align: right;
+			margin-right: 50px;
+			text-decoration: none;
+
+	}
+	
+	/*-- active page link  --*/	
+	.mynav a.active {
+		
+		           color: #ad1457;
+				   text-decoration: none;
+	}
+	
+	/*-- hover on the link --*/
+	.mynav a:hover {
+		
+		           color: #ad1457;
+				   text-decoration: none;
+	}
+
+/*-------------------------------------------------*/
+
+/*------------------- BlockOne  -------------------*/
+
+/*-- BlockOne styling --*/
+	
+	.blockOne {
+
+		position: relative;
+		padding-bottom:0px;
+		height:550px;
+		width: 100%;
+	}
+
+	
+	
+	.bigImg{
+	 
+		color: white;
+		height:auto;
+		width: 100%;
+		margin:0px;		
+	}
+	
+	.smallImg  {
+	 
+		position: absolute;
+		color: white;
+		top: 370px;
+		left: 640px;			
+	}
+	
+	.textInImg{
+	
+		 position: absolute;
+		 text-align:center;
+		 color:white;
+		 font-size: 18px;
+         width: 20px;
+		 top: 420px;
+		 left: 680px;		
+				
+	}
+	
+/*-------------------------------------------------*/
+
+
+
+
+/*------------------ blockTwo ---------------------*/
+	.blockTwo {
+
+	  background-color: #e9e7e8;
+			   padding: 30px 30px;
+			    height: 280px;
+			    margin: 0px;
+
+	}
+	
+	.blockTwo h1{
+	
+		font-size: 30px;
+			color: #e91e63;
+		   padding-down: 10px;
+	}
+	
+	.blockTwo h2{
+	    
+		font-size: 20px;
+			color: #6c6f00;
+			
+	}
+	
+	.blockTwo p {
+	    
+		font-size: 15px;
+			color: #6c6f00;
+			
+	}
+	
+	.yogurt {
+		
+	        position: absolute;
+			height: 260px;
+			top: 672px;
+			left: 782px;	
+	}
+
+/*-------------------------------------------------*/
+	
+	
+	.column {
+		
+		           float: left; 
+		         padding: 30px 30px; 
+		background-color: #c0ca33; 
+
+		
+		}
+
+	/*---- Left and right column ----*/
+	.column.side { 
+	
+			     width: 25%; 
+				 height:100px;
+			text-align: center;
+	}
+
+	/*----- Clear floats after the columns ----*/
+	.row:after {
+		
+			content: "";
+			display: table; 
+			  clear: both;
+	
+	}
+	
+	.myImg {	
+		height:30px;
+		width: 30px; 
+		object-fit: scale-down;
+	
+	}
+	.myText {
+		
+		color:white;
+		font-size:15px;
+		padding-bottom:50px; 
+		
+	
+	}
+	.footer {
+		
+		padding: 30px 30px; 
+		background-color: #e91e63; 
+	}
+	
+	.footer div {
+	
+    margin: auto;
+    width: 30%;
+    
+}
+
+.center img { padding: 15px; object-fit: scale-down;}
+
+.copyright { color:white; font-size:15px;}
